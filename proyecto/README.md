@@ -70,9 +70,9 @@ Utilizar algoritmos de **búsqueda ciega e informada** para planear rutas de un 
 
 Conversión de coordenadas:  
 $$
-r = n_r - \text{round}\!\left(\frac{y}{\text{escala}}\right), 
+r = n_r - \text{round}\left(\frac{y}{\text{escala}}\right), 
 \quad 
-c = \text{round}\!\left(\frac{x}{\text{escala}}\right)
+c = \text{round}\left(\frac{x}{\text{escala}}\right)
 $$
 
 ## Imagenes
