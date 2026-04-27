@@ -26,10 +26,12 @@ El reto consiste en simular cómo un rover podría descender de forma segura, co
 ![alt text](documentos/imagenes/image-4.png)
 ![alt text](documentos/imagenes/image-5.png)
 ![alt text](documentos/imagenes/image-6.png)
-![alt text](documentos/imagenes/image-7.png)
+<div align="center">
+  <img src="documentos/imagenes/image-7.png" alt="imagen" />
+</div>
 
 ### Algoritmos a implementar
-#### 🔹 Búsqueda codiciosa (Greedy local)
+#### Búsqueda codiciosa (Greedy local)
 1. En cada paso, evaluar los 8 vecinos.  
 2. Elegir el píxel con la menor profundidad, siempre que la diferencia de altura ≤ 2.0 m.  
 3. Repetir hasta no encontrar mejora posible.  
@@ -42,7 +44,7 @@ Preguntas a responder:
 - ¿Hasta dónde llega el explorador?  
 - ¿Qué tan bueno es el algoritmo en distintos casos?  
 
-#### 🔹 Recocido simulado (Simulated Annealing)
+#### Recocido simulado (Simulated Annealing)
 1. Desde la posición actual, seleccionar aleatoriamente un vecino válido (Δh ≤ 2.0 m).  
 2. Si mejora la solución, moverse.  
 3. Si no mejora, aceptar la posición con probabilidad controlada por la **temperatura T**.  
@@ -69,17 +71,19 @@ Utilizar algoritmos de **búsqueda ciega e informada** para planear rutas de un 
 - Sistema de coordenadas invertido en el eje vertical.  
 
 Conversión de coordenadas:  
-$$
-r = n_r - \text{round}\left(\frac{y}{\text{escala}}\right), 
-\quad 
+```math
+r = n_r - \text{round}\left(\frac{y}{\text{escala}}\right),
+\quad
 c = \text{round}\left(\frac{x}{\text{escala}}\right)
-$$
+```
 
 ## Imagenes
 ![alt text](documentos/imagenes/image.png)
 ![alt text](documentos/imagenes/image-1.png)
 ![alt text](documentos/imagenes/image-2.png)
-![alt text](documentos/imagenes/image-3.png)
+<div align="center">
+  <img src="documentos/imagenes/image-3.png" alt="imagen" />
+</div>
 
 ### Algoritmos de búsqueda
 - **Ciega (uninformed):** BFS, DFS.  
